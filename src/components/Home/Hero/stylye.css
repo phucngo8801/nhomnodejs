@@ -1,0 +1,34 @@
+
+#hero{
+    background-image: url('./image/b3.png');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position:  top 25% right 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 80px;
+    justify-content: center;
+}
+#hero h4{
+    padding-bottom: 15px;
+    color: rgb(39, 204, 233);
+}
+#hero h1{
+    color:  rgb(39, 204, 233);
+}
+#hero h2{
+    color:  rgb(39, 204, 233);
+}
+#hero button{
+    background-image: url('image/button.png') ;
+    background-color: transparent;
+    color:  rgb(39, 204, 233);
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size:15px ;
+}
